@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="6"
+    android:paddingVertical="30dp"
+    android:background="@color/grey">
+
+    <Button
+        android:id="@+id/light"
+        style="@style/button"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:text="Light Mode" />
+
+    <Button
+        android:id="@+id/dark"
+        style="@style/button"
+        android:backgroundTint="@color/black"
+        android:text="Dark Mode" />
+
+    <Button
+        android:id="@+id/red"
+        style="@style/button"
+        android:backgroundTint="@color/red"
+        android:text="Solid Red" />
+
+    <Button
+        android:id="@+id/green"
+        style="@style/button"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"
+        android:text="Solid Green" />
+
+    <Button
+        android:id="@+id/blue"
+        style="@style/button"
+        android:backgroundTint="@color/blue"
+        android:text="Solid Blue" />
+
+    <Button
+        android:id="@+id/animated"
+        style="@style/button"
+        android:text="Animated Gradient" />
+</LinearLayout>
